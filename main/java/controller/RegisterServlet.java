@@ -57,7 +57,7 @@ public class RegisterServlet extends HttpServlet {
 		dao.insertCustomer(customer);
 		
 		
-		RequestDispatcher rd = request.getRequestDispatcher("Nishadh_Shopping_Home.html");
+		RequestDispatcher rd = request.getRequestDispatcher("Himanee_Shopping_Home.html");
 		rd.forward(request, response);
 		
 		
